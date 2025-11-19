@@ -6,5 +6,6 @@ export const {
     db_password,
     db_username,
     MONGO_URI,
-    PORT
+    PORT,
+    NODE_ENV
 } = process.env;
