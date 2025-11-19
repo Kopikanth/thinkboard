@@ -3,9 +3,9 @@ import dotenv from 'dotenv';
 dotenv.config();
 
 export const {
-    db_password,
-    db_username,
     MONGO_URI,
     PORT,
+    UPSTASH_REDIS_REST_URL,
+    UPSTASH_REDIS_REST_TOKEN,
     NODE_ENV
 } = process.env;
